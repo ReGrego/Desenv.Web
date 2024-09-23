@@ -15,8 +15,6 @@ margin-left: 400px;
 line-height: 2;
 background: #f3f3f3;
 color: #333;
-width: 350px;
-height: 22px;    
 
 }
 
@@ -43,6 +41,8 @@ input:required {
     border-color: #5080ab;
     border-style: solid;
     border-width: 2px;
+    width: 350px;
+    height: 22px;
 }
 
 .salvar-button {
@@ -66,4 +66,56 @@ input:required {
     padding: 5px;
     padding-left: 20px;
     padding-right: 20px;
+}
+.produtos {
+    margin: 20px 0;
+}
+
+.produto {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #f9f9f9;
+}
+
+.produto h2 {
+    font-size: 24px;
+    color: #527296;
+    background-color: #f9f9f9;
+}
+
+.produto p {
+    font-size: 16px;
+    color: #6895b9;
+    background-color: #f9f9f9;
+}
+.produtos-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5080ab;
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.produtos-link:hover {
+    background-color: #40668f;
+}
+.voltar-button {
+    display: inline-block;
+    margin-top: 20px; 
+    padding: 10px 20px;
+    background-color: #5080ab; 
+    color: white; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+}
+
+.voltar-button:hover {
+    background-color: #406080; 
 }
